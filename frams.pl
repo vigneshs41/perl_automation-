@@ -55,7 +55,7 @@ sub main {
     #my $file_name = <STDIN>;
     #chomp($file_name);
     
-    my $file_name = "/home/vignesh/Documents/fun_perl/fun_name_list.txt";
+    my $file_name = "/ENTER_THE_PATH/fun_name_list.txt";
     
     open my $file, '<', $file_name or die "Cannot open $file_name: $!";
     
